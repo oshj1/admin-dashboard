@@ -32,10 +32,11 @@ body{
 .main-content{
     background-color: #f3f0f0;
     grid-column: 2;
-
+    padding: 20px;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 5fr 5fr;
+    gap: 15px;
 }
 
 .main-content .projects-section{
@@ -56,4 +57,17 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.project{
+    background-color: white;
+}
+
+.announcements-section{
+    background-color: white;
+}
+
+.trending-section{
+    background-color: white;
 }
