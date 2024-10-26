@@ -35,7 +35,18 @@ body{
 
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 11fr;
+    grid-template-rows: 1fr 5fr 5fr;
 }
 
+.main-content .projects-section{
+    grid-column: 1;
+}
 
+.main-content .trending-section{
+    grid-column: 2;
+}
+
+.main-content .announcements-section{
+    grid-column: 2;
+    grid-row: 1/3;
+}
