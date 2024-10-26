@@ -32,4 +32,10 @@ body{
 .main-content{
     background-color: #f3f0f0;
     grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 11fr;
 }
+
+
