@@ -3,3 +3,10 @@
     padding: 0;
 }
 
+body{
+    display: grid;
+}
+
+.sidebar{
+    background-color: aqua;
+}
