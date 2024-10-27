@@ -18,6 +18,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     padding: 20px;
+    display: grid;
 }
 
 .sidebar .sidebar-header{
@@ -25,6 +26,10 @@ body{
     font-weight: 600;
 }
 
+.sidebar .tabs-group-one{
+    display: grid;
+    gap: 5px;
+}
 .navbar{
     background-color:white;
 }
